@@ -1,23 +1,9 @@
 $(document).ready(function(){
-    $('.owl-carousel').owlCarousel({
-        margin:10,
-        nav:true,
-        responsive:{
-            0:{
-                items:1
-            },
-            320:{
-              items:1
-            },
-            480:{
-              item:1
-            },
-            600:{
-                items:1
-            },
-            1000:{
-                items:1
-            }
-        }
-    });
+    $('.multiple-items').slick({
+        prevArrow: '<div class="icon_slick icon_prev"><i class="fa-solid fa-chevron-left"></i> </div>',
+        nextArrow: '<div class="icon_slick icon_next"><i class="fa-solid fa-chevron-right"></i></div>',
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 3
+      });
   });
