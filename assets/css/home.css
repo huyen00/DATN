@@ -1,50 +1,5 @@
 
-.row{
-    margin-right:0px !important;
-    margin-left:0px !important;
-}
-li{
-    list-style: none;
-}
-a{
-    text-decoration: none;
-   
-}
-.title_page{
-    text-align: center;
-    text-transform: uppercase;
-    font-family:'Times New Roman', Times;
-}
-.text_page{
-    font-size: 14px;
-}
-/* menu */
-.menu_header{
-    position: fixed;
-    top:0;
-    left:0;
-    width: 100%;
-    height: auto;
-}
-.logo_page{
-    padding:1rem 0rem;
-}
-.menu_page{
-    width: 100%;
-    height: 50px;
-    text-align: center;
-    background-color: rgb(20, 20, 179);
-}
-.list_menu_page{
-    margin-bottom:0;
-    padding-left:0;
-    display: flex;
-   justify-content: center;
-}
-.link_menu{
-    padding:10px 14px;
-    color:#fff;
-}
+
 
 /* page carousel  */
 .owl-stage, .owl-item{
@@ -55,6 +10,9 @@ a{
 }
 .item img{
     position: relative;
+}
+.image_banner{
+    width: 100%;
 }
 .content_carousel{
     width: 400px;
@@ -125,14 +83,7 @@ a{
     text-transform: capitalize;
 }
 
-.three-lines {
-    -webkit-line-clamp: 2;
-}
-.clamp {
-    -webkit-box-orient: vertical;
-    display: -webkit-box;
-    overflow: hidden;
-}
+
 .see_more{
     margin-top: 2rem;
     justify-content: center;
@@ -338,61 +289,4 @@ a{
 .icon_prev{
     left:-10px;
     background-color: rgb(20, 20, 179);
-}
-
-/* footer */
-.footer_page{
-    padding:2rem 0rem;
-    background-color: rgb(0 0 120);
-}
-.footer_infomation{
-    display: flex;
-}
-.logo_footer{
-    width: 70%;
-}
-.footer_contact{
-    display: grid;
-    color:#fff;
-   
-}
-.text_contact{
-    margin-top:1rem;
-}
-.text_contact i{
-    padding-right:1rem;
-}
-.content_system{
-    display: grid;
-   
-}
-.system{
-    width: 25%;
-    color:#fff;
-    padding:0rem 1rem;
-}
-.line{
-    width: 100%;
-    left: 0;
-    color: #ffffff !important;
-}
-.content_system a{
-    color:#fff;
-}
-.title_system{
-    text-transform: uppercase;
-}
-a:hover{
-    text-decoration: none !important;
-}
-.copyright_footer{
-    text-align: center;
-    width: 100%;
-     color:#fff;
-    background-color: rgb(3, 3, 78);;
-}
-.copyright_footer span{
-    padding:1rem 0rem;
-    width: 100%;
-    height: 100%;
 }
