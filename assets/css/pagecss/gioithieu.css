@@ -184,3 +184,34 @@ font-size: 14px;
     color:#000;
 }
 
+/* page bieu mau */
+.page_bieumau{
+    padding:2rem 0rem;
+}
+.text_bieumau span{
+   padding:0.5rem;
+   background-color: red;
+    color:#fff;
+    text-transform: uppercase;
+}
+.page_bieumau h5{
+    margin-top:1.5rem;
+    text-transform: uppercase;
+}
+.table{
+    margin-top:1rem;
+}
+.img_nghiencuu{
+    padding:2rem 0rem;
+}
+/* thực tập doanh nghiệp */
+.list_question_thuctap{
+    padding: 1.5rem 2rem;
+}
+.item_question{
+   
+}
+.sub_question{
+    display: none;
+}
+
