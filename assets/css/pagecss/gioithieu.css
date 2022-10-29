@@ -208,10 +208,59 @@ font-size: 14px;
 .list_question_thuctap{
     padding: 1.5rem 2rem;
 }
-.item_question{
+.item_question span{
+    cursor: pointer;
    
+}
+.link_question.active{
+    color:rgb(14, 26, 196);
 }
 .sub_question{
     display: none;
+    padding-left:2rem;
+    margin-top:1rem;
+}
+/* cuju sinh viên */
+.content_item_alumni_sv{
+    position: relative;
+}
+.blog_alumni_sv{
+    position: absolute;
+    bottom:0;
+    left:0;
+    background-color: red;
+    padding:0.2rem 0.5rem;
+
+}
+.blog_alumni_sv span{
+    color:#fff;
+    font-size: 12px;
+}
+.item_alumni_sv{
+    width: 29%;
+    padding:1rem;
+    margin:1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.link_alumni_sv{
+    color:#000;
+   
+}
+.link_alumni_sv h6{
+    margin-top:1rem;
 }
 
+.tabcontent {
+    display: none;
+  }
+  .tabcontent.active {
+    display: block;
+  }
+
+  /* khoa */
+  .list_nav_sub{
+    display: none;
+  }
+  .addclass_menusub{
+    display: block;
+  }
