@@ -220,6 +220,9 @@ font-size: 14px;
     padding-left:2rem;
     margin-top:1rem;
 }
+.icon_down{
+    
+}
 /* cuju sinh viên */
 .content_item_alumni_sv{
     position: relative;
@@ -264,3 +267,68 @@ font-size: 14px;
   .addclass_menusub{
     display: block;
   }
+
+  /* item tin tức */
+  .page_item_news{
+      margin-top:2rem;
+  }
+  .content_item_news{
+      width: 65%;
+  }
+  .categori_item_news{
+      width: 35%;
+      padding-left:2rem;
+  }
+  .categori_list{
+    padding: 1rem 2rem;
+    border:1px solid rgb(133, 121, 121);
+  }
+  .link_news {
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    padding-top: 1rem;
+}
+.number_news {
+    float: right;
+}
+
+
+
+.featured_news_list{
+    margin-top:2rem;
+}
+.related_news{
+    padding-left:0px;
+}
+.col_related_news{
+    border: 1px solid rgba(156, 146, 146, 0.425);
+    padding:1rem;
+    margin-top:1rem;
+}
+.news_is{
+    width: 30%;
+    overflow: hidden;
+}
+.news_is:hover .img_featured{
+    transform: scale(1.2);
+    transition: 0.5s;
+    overflow: auto;
+}
+.text_news{
+    width: 70%;
+    padding-left: 1rem;
+}
+.title_featured_item_news{
+    font-size: 16px;
+}
+.read_view{
+    float: right;
+    background: blue;
+    color: #fff;
+    padding: 0.3rem 1rem;
+    border-radius: 5px;
+    font-size: 13px;
+}
+.read_view:hover{
+    background-color: rgba(212, 107, 20, 0.699);
+    color:#fff;
+}

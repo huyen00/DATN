@@ -8,15 +8,20 @@ $(document).ready(function(){
       });
 
       $(".item_question").click(function(event){
-        $(`#link_${id}`).removeClass('active');
+
         var id = $(this).attr("id").split('_')[1];
         $(".sub_question").hide();
+        $(`#link_${id}`).removeClass('active');
+        $(".icon_down").removeClass("fa-rotate-180");
         $(`#panel_${id}`).show();
+       
+        $(`#icondown_${id}`).addClass("fa-rotate-180");
+        console.log("huy");
         $(`#link_${id}`).addClass('active');
       });
 
     //   
     $(".list_nav").click(function(){
-        $(".list_nav_sub").css("display").
+      $(".")
     })
   });
